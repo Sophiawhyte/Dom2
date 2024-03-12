@@ -1,0 +1,27 @@
+/* styles.css */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc; /* Default background color */
+    margin: 20px auto; /* Center the color box horizontally */
+}
+
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #044d9b;
+    color: #0ad6fa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#change-color-btn:hover {
+    background-color: #e4e71c;
+}
